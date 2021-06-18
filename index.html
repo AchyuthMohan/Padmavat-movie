@@ -168,6 +168,33 @@ opacity: 0.65;
 .btn.disabled {
     pointer-events: none;
     opacity: 0.65;
+}</style><style>.d-none {
+    display: none !important;
+}
+.invalid-feedback {
+    display: none;
+}
+.btn.disabled {
+    pointer-events: none;
+    opacity: 0.65;
+}</style><style>.d-none {
+    display: none !important;
+}
+.invalid-feedback {
+    display: none;
+}
+.btn.disabled {
+    pointer-events: none;
+    opacity: 0.65;
+}</style><style>.d-none {
+    display: none !important;
+}
+.invalid-feedback {
+    display: none;
+}
+.btn.disabled {
+    pointer-events: none;
+    opacity: 0.65;
 }</style></head>
 <body id="page-top" style="background-color: black;">
     <!-- Navigation-->
@@ -177,10 +204,11 @@ opacity: 0.65;
             <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="navbar-collapse collapse" id="navbarResponsive" style="">
                 <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                    <li class="nav-item"><a class="nav-link active" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#services">Cast</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#services">Cast</a></li>
                     <li class="nav-item"><a class="nav-link" href="#plot">Plot</a></li>
                     <li class="nav-item"><a class="nav-link" href="#awards">Awards</a></li>
+					<li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -366,10 +394,10 @@ opacity: 0.65;
 					<div class="col-lg-4 col-md-6 text-center">
 						<div class="mt-5">
 							<div class="card" style="width: 18rem;">
-								<img class="card-img-top" src="data:image/jpeg;base64,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" alt="Card image cap">
+								<img alt="Card image cap" src="https://i.ytimg.com/vi/gGrj7V0vPi4/maxresdefault.jpg" class="card-img-top">
 								<div class="card-body">
-								  <h5 class="card-title">Ranveer Singh</h5>
-								  <p class="card-text">Role: Sultan Alauddin Khilji<br>Ranveer Singh Bhavnani is an Indian actor who is known for his work in Hindi films. The recipient of several awards, including four Filmfare Awards, he is among the highest-paid Indian actors and has been featured in Forbes India's Celebrity 100 list since 2012.</p>
+								  <h5 class="card-title">National Film Award for Best Male Playback Singer</h5>
+								  <p class="card-text"> The award was first granted to Mahendra Kapoor in the year 1967. The singers whose performances have won awards have worked in nine major languages: Hindi, Malayalam, Bengali, Tamil, Telugu, Marathi and Kannada, Punjabi.</p>
 								  
 								</div>
 							  </div>
@@ -383,10 +411,10 @@ opacity: 0.65;
 						<div class="col-lg-4 col-md-6 text-center">
                             <div class="mt-5">
                                 <div class="card" style="width: 18rem;">
-                                    <img class="card-img-top" src="data:image/jpeg;base64,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" alt="Card image cap">
+                                    <img class="card-img-top" src="https://www.filmfare.com/awards/filmfare-awards-2019/images/nominations/remo.jpg?v=0.01" alt="Card image cap">
                                     <div class="card-body">
-                                      <h5 class="card-title">Ranveer Singh</h5>
-                                      <p class="card-text">Role: Sultan Alauddin Khilji<br>Ranveer Singh Bhavnani is an Indian actor who is known for his work in Hindi films. The recipient of several awards, including four Filmfare Awards, he is among the highest-paid Indian actors and has been featured in Forbes India's Celebrity 100 list since 2012.</p>
+                                      <h5 class="card-title">Filmfare Award for Best Choreography</h5>
+                                      <p class="card-text">The Filmfare Best Choreography Award is given by the Filmfare magazine as part of its annual Filmfare Awards for Hindi films. Although the awards started in 1954, the best choreography category did not start until 1989.</p>
                                       
                                     </div>
                                   </div>
@@ -402,6 +430,10 @@ opacity: 0.65;
 				</div>
 
 	</section>
+
+	<h2 class="text-center mt-0 text-white" id="gallery">Gallery</h2>
+	<hr class="divider">
+
     <!-- Portfolio-->
     <div id="portfolio">
         <div class="container-fluid p-0">
@@ -454,7 +486,7 @@ opacity: 0.65;
                 <div class="col-lg-8 col-xl-6 text-center text-white">
                     <h2 class="mt-0">Let's Get In Touch!</h2>
                     <hr class="divider">
-                    <p class="text-muted mb-5 ">Ready to start your next project with us? Send us a messages and we will get back to you as soon as possible!</p>
+                    <p class="text-muted mb-5 ">Wanna make website for another movie! <br>Then fill it up</p>
                 </div>
             </div>
             <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
@@ -523,7 +555,7 @@ opacity: 0.65;
     
     <!-- Footer-->
     <footer class="bg-light py-5">
-        <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright © 2021 - Company Name</div></div>
+        <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright © 2021 - Achyuth Mohan</div></div>
     </footer>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
@@ -576,6 +608,117 @@ else {
 </script>
 
 <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script><!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script><!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script><!-- Code injected by live-server -->
 <script type="text/javascript">
 	// <![CDATA[  <-- For SVG support
 	if ('WebSocket' in window) {
